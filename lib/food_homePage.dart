@@ -31,9 +31,8 @@ class _ShopHomePageState extends State<ShopHomePage> {
                       height: 45,
                       decoration: BoxDecoration(
                           color: Colors.grey[200],
-                          borderRadius: BorderRadius.all(
-                            Radius.circular(15),
-                          )),
+                          borderRadius:BorderRadius.circular(15),
+                      ),
                       child: Icon(
                         Icons.keyboard_arrow_left,
                         color: Colors.black,
@@ -72,7 +71,7 @@ class _ShopHomePageState extends State<ShopHomePage> {
                       borderRadius: BorderRadius.circular(15),
                       borderSide: BorderSide(
                         width: 0,
-                        style: BorderStyle.none,
+                       // style: BorderStyle.none,
                       ),
                     ),
                     filled: true,
