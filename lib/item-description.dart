@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:food_shop_tab/item.dart';
+import 'package:food_shop_tab/for_list/item.dart';
+
+import 'item1.dart';
 
 class ItemDescription extends StatelessWidget {
   final Item item;
